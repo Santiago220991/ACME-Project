@@ -7,7 +7,6 @@ module TimeFrameFunctions
        second_person_end_hour.between?(first_person_start_hour, first_person_end_hour)
       return 1
     end
-
     0
   end
 end
