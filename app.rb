@@ -16,11 +16,8 @@ class App
 
   def create_person
     @data.each do |element|
-      person_schedule = element.split('=')
-      schedule = person_schedule[1].split(',')
-      @people << Person.new(person_schedule[0], schedule)
+      @people << Person.new(element[:name], element[:schedule])
     end
-    @people
   end
 
   def create_report
@@ -28,7 +25,7 @@ class App
       (index + 1).upto(@people.length - 1) do |upto_index|
         report = Report.new
         report_counter = report.common_hours(element.work_hours, @people[upto_index].work_hours)
-        p("#{element.name}-#{@people[upto_index].name}: #{report_counter}")
+        puts("#{element.name}-#{@people[upto_index].name}: #{report_counter}")
       end
     end
   end
