@@ -4,6 +4,11 @@
 
 [Presentation.webm](https://user-images.githubusercontent.com/98363075/196286780-b2c10e1f-cab4-47cb-aa9d-5238c476c350.webm)
 
+## Architecture
+
+![ACME Company Architecture](https://user-images.githubusercontent.com/98363075/197586603-62650a7d-02c0-4381-b068-b462b8e8a15c.png)
+
+
 ## Built With
 
 - Ruby
