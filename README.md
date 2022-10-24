@@ -6,7 +6,7 @@
 
 ## Architecture
 
-![ACME Company Architecture](https://user-images.githubusercontent.com/98363075/197587634-eb82cd9e-6ac1-440c-acf4-2e8c81f10cc4.png)
+![ACME Company Architecture](https://user-images.githubusercontent.com/98363075/197588970-2fd3daf2-7b3a-4b62-87c9-3e4bd2f4221c.png)
 
 ## Built With
 
